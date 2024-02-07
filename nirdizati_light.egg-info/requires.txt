@@ -1,0 +1,11 @@
+pymining==0.2
+pandas~=1.5.3
+pm4py~=2.2.21
+scikit-learn~=1.3.0
+numpy~=1.24.3
+hyperopt~=0.2.7
+dateparser~=1.1.8
+holidays~=0.28
+funcy~=2.0.0
+xgboost~=1.7.6
+pymoo~=0.6.0.1
