@@ -2,12 +2,8 @@ from enum import Enum
 
 from nirdizati_light.explanation.wrappers.dice_wrapper import dice_explain
 class ExplainerType(Enum):
-    SHAP = 'shap'
-   # LRP = 'lrp'
-    ICE = 'ice'
     DICE = 'dice'
-    DICE_IMPRESSED = 'dice_impressed'
-    DICE_AUGMENTATION = 'dice_augmentation'
+
 
 
 def explain(CONF, predictive_model, encoder, cf_df=None, test_df=None, df=None, query_instances=None,
